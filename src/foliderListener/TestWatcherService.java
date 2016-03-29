@@ -44,5 +44,6 @@ public class TestWatcherService {
     public static void main(String args[]) throws IOException, InterruptedException{
         
         new TestWatcherService(Paths.get("C:\\TEMP")).handleEvents();
+        System.out.println("this is git test");
     }
 }
